@@ -1,0 +1,48 @@
+*{
+    margin:0px;
+    padding:0px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+/********************************HEADER********************************/
+
+    
+.header{
+    background: #ccecf0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+  
+    .nombre{
+        margin-top: 10px;
+        font-size: 25px;
+        margin-bottom: 10px;
+    }
+
+    .imagen{
+        margin-bottom: 10px;
+    }
+/********************************SECTION********************************/
+
+.section{
+    background: #a5e1e9;
+    display: flex;
+    flex-direction: column;
+    align-items: initial;
+    align-content: flex-start;
+}
+    .Estudios,.Informacion-Personal,.tabla-paginas,.Informacion-Personal, .Experiencia-Laboral{
+        margin-left: 10px;
+        margin-bottom: 2px;
+    }
+
+/********************************FOOTER********************************/
+
+.footer{
+    background:#1b8e92;
+    text-align: center;
+}
